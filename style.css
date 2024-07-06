@@ -1,0 +1,374 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@600&family=Poppins:wght@300;400;700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+
+}
+
+body{
+    background-color: black;
+}
+
+.main{
+    height: 96vh;
+    background-image: url("images/bg.jpg");
+    position: relative;
+    background-position: center center;
+    background-size: max(1200px,100vw);
+    background-repeat: no-repeat;
+}
+
+.main .box{
+    height: 96vh;
+    width: 100%;
+    opacity: 0.70;
+    position: absolute;
+    top: 0;
+    background-color: black;
+}
+
+nav{
+    max-width: 75vw;
+    justify-content: space-between;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    height: 52px;
+    padding-top :20px;
+}
+
+nav img{
+    color: red;
+    width: 145px;
+    position: relative;
+    z-index: 10;
+}
+
+nav button{
+    position: relative;
+    z-index: 10;
+}
+
+.hero{
+    font-family: 'Poppins',sans-serif;
+    height: calc(100% - 72px) ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    position: relative;
+    gap: 23px;
+    padding:0 30px;
+    text-align: center;
+}
+
+.hero2{
+    font-weight: bolder;
+    font-size:48px;
+    text-align: center;
+}
+
+.hero3{
+    font-weight: 400;
+    font-size: 22px;
+    text-align: center;
+}
+
+.hero4{
+    font-weight: 400;
+    font-size: 19px;
+    text-align: center;
+    color: white;
+}
+
+.separation{
+    height: 9px;
+    background-color: rgb(46,44,44);
+}
+
+.btn{
+    padding: 3px 8px;
+    font-weight: 550;
+    color: white;
+    background-color: rgba(248, 243, 243, 0.033);
+    border: none;
+}
+
+.hero-buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+}
+
+.main input{
+    padding: 17px 170px 17px 13px;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 4px;
+    color: white;
+    background-color: rgba(23,23,23,0.3);
+    text-align: start;
+    outline-color: rgb(255, 255, 255);
+    border: 1px solid rgba(246,238,238,0.4);
+}
+
+.btn-red{
+    background-color: red;
+    color: white;
+    padding: 13px 44px;
+    font-size: 25px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.btn-red:hover{
+    background-color: rgb(243, 83, 83);
+    color: white;
+    padding: 13px 44px;
+    font-size: 25px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.btn1{
+    border: 1px solid rgba(255, 255, 255, 0.449);
+    border-radius: 5px;
+    margin: 25px;
+    padding: 7px 20px 7px 20px;
+    cursor: pointer;
+}
+
+.btn-red-sm{
+    background-color: red;
+    color: white;
+    padding: 7px 13px 7px 13px;
+    border-radius: 6px;
+    cursor: pointer;
+    
+}
+
+.btn-red-sm:hover{
+    background-color:  rgb(243, 83, 83);
+    color: white;
+    padding: 7px 13px 7px 13px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.first{
+    display: flex;
+    max-width: 80vw;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    color: white;
+}
+
+.secimg{
+    position: relative;
+
+}
+
+.secimg img{
+    width: 36vw;
+    height: fit-content;
+    position: relative;
+    z-index:1;
+    margin-top: 189px;
+}
+
+.secimg video{
+    position: absolute;
+    top: 195px;
+    right: 0;
+}
+
+section .first > div{
+    display: flex;
+    flex-direction: column;
+}
+
+.c1{
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.c2{
+    font-size:24px;
+}
+
+.separation2{
+    height: 9px;
+    background-color: rgb(46,44,44);
+    margin: 50px 0 0 0;
+}
+
+.box{
+    font-size: 23px;
+    color: white;
+}
+
+.faq{
+    background-color: black;
+    color: white;
+    font-size: 24px;
+}
+
+.faq h2{
+    padding: 34px;
+    text-align: center;
+    color: white;
+    font-weight: 800;
+    font-size: 48px;
+}
+
+.faqbox1{
+    transition: all 1s ease-out;
+    display: flex;
+    background-color: #343030;
+    padding: 24px;
+    max-width: 70vw;
+    margin: 34px 14px 14px 198px;
+    justify-content: space-between;
+    cursor: pointer;
+    color: white;
+}
+
+.faqbox{
+    transition: all 0.5s ease-out;
+    display: flex;
+    background-color: #343030;
+    padding: 24px;
+    max-width: 70vw;
+    margin: 14px auto;
+    justify-content: space-between;
+    cursor: pointer;
+    color: white;
+}
+
+.faqbox1:hover{
+    background-color: #414141;
+    color: white; 
+}
+
+.faqbox:hover{
+    background-color: #414141;
+    color: white;
+}
+
+footer {
+    color: white;
+    max-width: 60vw;
+    margin: auto;
+    padding: 60px;
+}
+
+footer .questions {
+    padding: 34px 0;
+    color: rgba(255,255,255,0.7);
+    font-size: larger;
+}
+
+.footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-content: space-around;
+    color: white;
+    font-size: large;
+    font-weight: 200;
+}
+
+a{
+    margin: 25px;
+}
+
+.sec2 input{
+    padding: 17px 170px 17px 13px;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 4px;
+    color: white;
+    background-color: rgba(23,23,23,0.3);
+    text-align: start;
+    outline-color: rgb(255, 255, 255);
+    border: 1px solid rgba(246,238,238,0.4);
+}
+
+.hero5{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    color: white;
+    flex-direction: column;
+    margin: 34px 0 18px 0;
+    font-size: 24px;
+}
+
+@media screen and (max-width: 1300px) {
+
+    nav{
+        max-width: 90vw;
+    }
+
+    .first {
+        flex-wrap: wrap;
+    }
+
+    .secImg img {
+        width: 305px;
+    }
+
+    .secImg video {
+        width: 305px;
+    }
+
+    .hero> :nth-child(1) {
+        font-size: 32px;
+    }
+
+    .hero> :nth-child(2) {
+        font-size: 18px;
+    }
+
+    .hero> :nth-child(3) {
+        font-size: 18px;
+    }
+
+    .hero-buttons {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 16px;
+    }
+
+    .faq h2 {
+        text-align: center;
+        font-size: 32px;
+    }
+
+    footer {
+        max-width: 90vw;
+        padding: 75px 0;
+    }
+
+    .footer-item{
+        align-items: center;
+    }
+ 
+
+}
+
+
+
+@media screen and (max-width: 1300px) {
+
+    .footer {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 25px;
+    }
+}
